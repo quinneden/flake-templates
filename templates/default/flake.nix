@@ -1,5 +1,5 @@
 {
-  definition = "Default flake template";
+  description = "Default flake template";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable";

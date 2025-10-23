@@ -1,5 +1,5 @@
 {
-  description = "";
+  description = "Flake template for aarch64-linux";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs?ref=nixpkgs-unstable";

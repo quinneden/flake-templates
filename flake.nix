@@ -5,6 +5,11 @@
     { ... }:
     {
       templates = {
+        default = {
+          path = ./templates/default;
+          description = "Default flake template.";
+        };
+
         aarch64-darwin = {
           path = ./templates/aarch64-darwin;
           description = "A flake template for aarch64-darwin.";
